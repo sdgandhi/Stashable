@@ -1,0 +1,98 @@
+body {
+	background-color: rgba(255,61,46,1);
+}
+
+.pageHolder {
+	padding-top: 50px;
+}
+
+.deviceHolder {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.deviceImage {
+	max-height: 500px;
+	max-width: 100%;
+}
+
+.textHolder {
+	color: white;
+	font-family: 'Varela Round', sans-serif;
+	text-align: center;
+}
+
+.untorch-form-container {
+	text-align: center !important;
+	margin-left:0;
+	margin-bottom: 50px;
+}
+
+.intro {
+	text-align: center;
+	color: white;
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-style: italic;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.introParagraph {
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom:25px;
+}
+
+.downloadButtonHolder {
+	text-align: center;
+}
+
+.linkTexting_oq3j39q0 {
+	display: none;
+}
+
+.downloadButtonHolder {
+	margin-bottom: 40px;
+}
+
+
+@media (min-width: 768px) {
+
+	.pageHolder {
+		padding-top: 100px;
+	}
+
+	.textHolder {
+		text-align: left;
+	}
+
+	.untorch-form-container {
+		text-align: left !important;
+		max-width: 500px !important;
+	}
+
+	.intro {
+		text-align: left;
+	}
+
+	.introParagraph {
+		padding: 0;
+	}
+
+	.downloadButtonHolder {
+		text-align: left;
+	}
+
+	.linkTexting_oq3j39q0 {
+		display: block;
+	}
+}
+
+.untorch-submit-button, .linkTextingButton_oq3j39q0 {
+	background-color: transparent !important;
+	border: 1px solid white !important;
+}
+
+.linkTextingInner_oq3j39q0 {
+	margin: 0;
+}
