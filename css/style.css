@@ -37,6 +37,12 @@ body {
 	margin-bottom: 40px;
 }
 
+.introSubtitle {
+    font-style: italic;
+	padding-right: 30px;
+	margin-bottom:40px;
+}
+
 .introParagraph {
 	padding-left: 30px;
 	padding-right: 30px;
@@ -45,19 +51,38 @@ body {
 
 .downloadButtonHolder {
 	text-align: center;
+    margin-bottom: 40px;
 }
 
 .linkTexting_oq3j39q0 {
 	display: none;
 }
 
-.downloadButtonHolder {
-	margin-bottom: 40px;
+h6 {
+    text-align: center;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    color:white;
+    font-size: 14;
+}
+
+footer a:hover {
+    color:white;
+}
 
 @media (min-width: 768px) {
-
+    
+    h6 {
+        text-align: left;
+    }
+    
 	.pageHolder {
 		padding-top: 100px;
 	}
